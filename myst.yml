@@ -11,28 +11,28 @@ project:
   license: CC-BY-4.0
 
   keywords:
-    - open science
-    - plasma science
-    - plasma physics
-    - fusion energy
+  - open science
+  - plasma science
+  - plasma physics
+  - fusion energy
 
   authors:
-    - name:
-      given: Nicholas
-      surname: Murphy
-      affiliation: PlasmaPy
-      id: namurphy
-      orcid: 0000-0001-6628-8033
-      roles:
-        - writing
-        - editing
-        - software
+  - name:
+    given: Nicholas
+    surname: Murphy
+    affiliation: PlasmaPy
+    id: namurphy
+    orcid: 0000-0001-6628-8033
+    roles:
+    - writing
+    - editing
+    - software
 
   exclude:
-    - README.md
+  - README.md
 
   toc:
-    - file: content/index.md
+  - file: content/index.md
 
 site:
   template: book-theme
