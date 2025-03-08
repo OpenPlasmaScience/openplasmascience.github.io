@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+
+version: 1
+
+project:
+  id: cf6f0295-daed-4bd1-b9e3-5101b16c8a8f
+  title: Making plasma and fusion energy sciences open
+  description: A guide for bring open science practices into the plasma and fusion energy communities
+  github: https://github.com/OpenPlasmaScience/openplasmascience.github.io
+  open-access: true
+  license: CC-BY-4.0
+
+  keywords:
+    - open science
+    - plasma science
+    - plasma physics
+    - fusion energy
+
+  authors:
+    - name:
+      given: Nicholas
+      surname: Murphy
+      affiliation: PlasmaPy
+      id: namurphy
+      orcid: 0000-0001-6628-8033
+      email: namurphy@plasmapy.org
+      roles:
+        - writing
+        - editing
+        - software
+
+  exclude:
+    - README.md
+
+  toc:
+    - file: content/index.md
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
