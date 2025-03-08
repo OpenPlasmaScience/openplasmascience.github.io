@@ -23,7 +23,6 @@ project:
       affiliation: PlasmaPy
       id: namurphy
       orcid: 0000-0001-6628-8033
-      email: namurphy@plasmapy.org
       roles:
         - writing
         - editing
