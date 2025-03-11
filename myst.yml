@@ -10,29 +10,42 @@ project:
   open-access: true
   license: CC-BY-4.0
 
+  exclude:
+  - README.md
+
+  toc:
+  - file: content/index.md
+
   keywords:
   - open science
   - plasma science
   - plasma physics
   - fusion energy
 
+  abbreviations:
+    AI: Artificial Intelligence
+    API: Application Programming Interface
+    FAIR: Findable, Accessible, Interoperable, and Reusable
+    FES: Fusion Energy Sciences
+    HEDP: High-Energy-Density Physics
+    HPC: High-Performance Computing
+    ITER: International Thermonuclear Experimental Reactor
+    ML: Machine Learning
+    MyST: Markedly Structured Text
+    UNESCO: United Nations Educational, Scientific and Cultural Organization
+    YAML: Yet Another Markup Language
+
   authors:
   - name:
     given: Nicholas
     surname: Murphy
     affiliation: PlasmaPy
-    id: namurphy
+    github: namurphy
     orcid: 0000-0001-6628-8033
     roles:
     - writing
     - editing
     - software
-
-  exclude:
-  - README.md
-
-  toc:
-  - file: content/index.md
 
 site:
   template: book-theme
