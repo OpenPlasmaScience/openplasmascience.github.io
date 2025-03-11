@@ -4,6 +4,15 @@ ci:
 
 repos:
 
+- repo: https://github.com/hukkin/mdformat
+  rev: 0.7.22
+  hooks:
+  - id: mdformat
+    additional_dependencies:
+    - mdformat-myst
+    - mdformat-ruff
+    - mdformat-config
+
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v5.0.0
   hooks:
@@ -47,18 +56,8 @@ repos:
     args: [--autofix]
   - id: pretty-format-yaml
     args: [--autofix]
-    # For the labeler GitHub Action, labels with spaces in them must
-    # be put in quotes. However, the pretty-format-yaml hook will
-    # remove the quotes which will break that action, so we should not
-    # run this hook on `labeler.yml` (or certain other files).
-    exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/pre-commit/pygrep-hooks
   rev: v1.10.0
   hooks:
-  - id: python-check-blanket-noqa
-    name: noqa comments have an error code
-    exclude: ^docs/plasmapy_sphinx/
-  - id: rst-directive-colons
-  - id: rst-inline-touching-normal
   - id: text-unicode-replacement-char
