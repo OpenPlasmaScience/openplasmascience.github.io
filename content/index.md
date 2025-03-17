@@ -1,7 +1,7 @@
 # Making plasma and fusion energy sciences open
 
-This site is intended to be a community-developed guide on how we can 
-make plasma and fusion energy sciences open to everyone. 
+This site is intended to be a community-developed guide on how we can
+make plasma and fusion energy sciences open to everyone.
 
 Probable topics include:
 
