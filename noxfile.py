@@ -11,7 +11,7 @@ nox.options.default_venv_backend = "uv|virtualenv"
 @nox.session
 def build(session):
     session.install("uv")
-    session.run("uvx", "--from=mystmd", "myst", "build", "--all")
+    session.run("uvx", "--from=mystmd", "myst", "build", "--all", "--html")
 
 
 @nox.session
