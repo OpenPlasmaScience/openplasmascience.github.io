@@ -36,6 +36,9 @@ project:
     YAML: Yet Another Markup Language
 
   authors:
+
+  # Please add names in alphabetical order by surname
+
   - name: Nick Murphy
     affiliation: PlasmaPy
     github: namurphy
