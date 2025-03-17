@@ -36,7 +36,7 @@ project:
     YAML: Yet Another Markup Language
 
   authors:
-  - name: Nicholas Murphy
+  - name: Nick Murphy
     affiliation: PlasmaPy
     github: namurphy
     orcid: 0000-0001-6628-8033
