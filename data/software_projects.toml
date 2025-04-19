@@ -1,7 +1,13 @@
-[[project]]
+[[ project ]]
 name = "PlasmaPy"
 docs = "https://docs.plasmapy.org"
-url = "https://www.plasmapy.org"
+github = "https://github.org/PlasmaPy/PlasmaPy"
 description = "Python package for plasma research and education"
 license = "BSD 3-Clause"
-languages = [ "Python" ]
+
+[[ project ]]
+name = "OMAS"
+docs = "https://gafusion.github.io/omas"
+github = "https://github.com/gafusion/omas"
+description = "Library to interface with the ITER Integrated Modeling and Analysis Suite"
+license = "MIT"
