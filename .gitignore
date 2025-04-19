@@ -42,3 +42,7 @@ env
 lib
 venv
 wheels
+
+# Generated files
+
+content/_generated_software_table.md
