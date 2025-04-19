@@ -15,6 +15,7 @@ project:
 
   toc:
   - file: content/index.md
+  - file: content/software_projects.md
 
   keywords:
   - open science
